@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body 
+  {
+    background-color: #1e1f24;
+  }
+  body .logo
+  {
+    border-radius: 6px;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    margin: 0;
+    padding: 0;
+   }
+  body .menu-bar
+  {
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+    background: black;
+    font-family: "sans-serif";
+  }
+  body .menu-bar ul li a
+  {
+     text-decoration: none;
+     color: white;
+     padding: 15px;
+  }
+  body .menu-bar .logo
+  {
+    border-radius: 50px;
+    max-width: 70%;
+    vertical-align: middle;
+    border: 10%;
+    margin: 19px;
+    padding: 4px;
+    height: 36px;
+   }
+  body .menu-bar .option 
+  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around
+  }
+  body .menu-bar .option .top-left .cool
+  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .menu-bar .option .top-left .cool .about ul,
+  body .menu-bar .option .top-left .cool .service ul,
+  body .menu-bar .option .top-left .cool .rev ul,
+  body .menu-bar .option .top-left .cool .more ul
+  {
+    display: none;
+    list-style: none;
+    background:  #1e1f24;
+  }
+  body .menu-bar .option .top-left .cool .about ul .us ul,
+  body .menu-bar .option .top-left .cool .about ul .founder ul,
+  body .menu-bar .option .top-left .cool .service ul .intern ul,
+  body .menu-bar .option .top-left .cool .service ul .place ul
+  {
+    display: none;
+    list-style: none;
+    background: #1e1f24;
+  }
+  body .menu-bar .option .top-left .cool .about ul .us ul li,
+  body .menu-bar .option .top-left .cool .about ul .founder ul li
+  {
+    letter-spacing: 0.5px;
+    text-transform: none;
+    width: 100%;
+    margin-right: 100px;
+  }
+  body .menu-bar .option .top-left .cool .service ul .intern ul li,
+  body .menu-bar .option .top-left .cool .service ul .place ul li
+  {
+   letter-spacing: 0.5px;
+   text-transform: none;
+   width: 100%;
+   margin-right: 100px;
+  }
+  body .menu-bar .option .top-left .cool .about ul .us:hover > ul,
+  body .menu-bar .option .top-left .cool .about ul .founder:hover > ul 
+  {
+    display: block;
+    position: absolute;
+    border: 1px solid black;
+  }
+  body .menu-bar .option .top-left .cool .service ul .intern:hover > ul,
+  body .menu-bar .option .top-left .cool .service ul .place:hover > ul
+  {
+    display: block;
+    position: absolute;
+    border: 1px solid black;
+  }
+ body .menu-bar .option .top-left .cool .about ul li i,
+ body .menu-bar .option .top-left .cool .service ul li i
+ {
+    position: relative;
+    right: 10%;
+ }
+ body .menu-bar .option .top-left .cool .about:hover > ul,
+ body .menu-bar .option .top-left .cool .service:hover >  ul
+ {
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+ } 
+ body .menu-bar .option .top-left .cool .rev ul li
+ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    text-transform: none; */
+    letter-spacing: 0.5px;
+ }
+ body .menu-bar .option .top-left .cool .rev ul li i
+ {
+   position: absolute;
+   right: 10%;
+ }
+ body .menu-bar .option .top-left .cool .rev:hover > ul
+ {
+    display: block;
+    position: absolute;
+    border: 1px solid black;
+ }
+ body .menu-bar .option .top-left .cool li
+ {
+    margin: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+ }
+ body .menu-bar .option .top-right .wrap
+ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+ }
+ body .menu-bar .option .top-right .wrap li
+ {
+    margin: 20px;
+    cursor: pointer;
+ }
+  
+ 
